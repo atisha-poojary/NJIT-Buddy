@@ -9,14 +9,39 @@
 import UIKit
 import CoreData
 
+let baseUrl = "http://52.87.233.57:80/"
+
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
-
+    
+//    var isOnline = false
+//    let reachablility = Reachability.reachabilityForInternetConnection()
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         // Override point for customization after application launch.
+        
+
+        
+//        reachablility.startNotifier()
+//        if reachablility.isReachable() {
+//            self.isOnline = true
+//        }
+//        NSNotificationCenter.defaultCenter().addObserver(self, selector: "reachabilityChanged:", name: kReachabilityChangedNotification, object: nil)
+//        UIApplication.sharedApplication().statusBarStyle = .LightContent
+//        self.window = UIWindow(frame: UIScreen.mainScreen().bounds)
+        
+        let storyBoard = UIStoryboard(name: "Main", bundle: nil)
+
+        let user_id = NSUserDefaults.standardUserDefaults().stringForKey("currentUser")
+        
+        //|| user_id != ""
+        if (user_id != nil) {
+            let viewController: UITabBarController? = storyBoard.instantiateViewControllerWithIdentifier("NewsFeedTabBarController") as? UITabBarController
+            self.window?.rootViewController = viewController
+        }
+        
         return true
     }
 

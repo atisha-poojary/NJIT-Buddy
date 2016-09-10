@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "3BF9DFC51CEAD02A00D0E916"
-               BuildableName = "Buddy_Swift.app"
+               BuildableName = "Buddy.app"
                BlueprintName = "Buddy_Swift"
                ReferencedContainer = "container:Buddy_Swift.xcodeproj">
             </BuildableReference>
@@ -53,7 +53,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "3BF9DFC51CEAD02A00D0E916"
-            BuildableName = "Buddy_Swift.app"
+            BuildableName = "Buddy.app"
             BlueprintName = "Buddy_Swift"
             ReferencedContainer = "container:Buddy_Swift.xcodeproj">
          </BuildableReference>
@@ -76,7 +76,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "3BF9DFC51CEAD02A00D0E916"
-            BuildableName = "Buddy_Swift.app"
+            BuildableName = "Buddy.app"
             BlueprintName = "Buddy_Swift"
             ReferencedContainer = "container:Buddy_Swift.xcodeproj">
          </BuildableReference>
@@ -95,7 +95,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "3BF9DFC51CEAD02A00D0E916"
-            BuildableName = "Buddy_Swift.app"
+            BuildableName = "Buddy.app"
             BlueprintName = "Buddy_Swift"
             ReferencedContainer = "container:Buddy_Swift.xcodeproj">
          </BuildableReference>
